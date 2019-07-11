@@ -1,0 +1,22 @@
+<p>my-sample works!</p>
+
+<h1>{{myName}}</h1>
+
+emmet shortcut
+<!-- div.panel>div.panel-heading+div.panel-body>div.jumbotron>label+input.form-control+div>h1 -->
+
+<div class="panel">
+    <div class="panel-heading">
+        What is your name?
+    </div>
+    <div class="panel-body">
+        <div class="jumbotron">
+            <label for="">Name</label>
+            <input type="text" class="form-control" [(ngModel)]="yourName"
+            (keyup.enter)="submitYourName()" placeholder="Enter Your name">
+            <div>
+                <h1 *ngIf="yourNameResponse">{{yourNameResponse}}</h1>
+            </div>
+        </div>
+    </div>
+</div>
