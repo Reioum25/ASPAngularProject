@@ -9,10 +9,18 @@ import { FormGroup, FormControl, Validators } from '@angular/forms';
 })
 export class MySampleComponent implements OnInit {
   myName:string;
-  sampleCreateForm: FormGroup;
 
   yourName: string;
   yourNameResponse: string;
+
+  sampleCreateForm: FormGroup;
+
+  nameBackEndErrors: string[];
+  ageBackEndErrors: string[];
+  
+
+  isSubmit: boolean = false;
+
   constructor(
     private personService: PersonService
   ) { 
@@ -46,8 +54,53 @@ try {
         this.yourNameResponse = response.message;
       }
     } catch (error) {
-      console.log(error)
-      
+      console.log(error)   
+
     }
   }
+
+  get f(){
+    return this.sampleCreateForm.controls;
+  }
+  
+  async formSubmit(){
+    try {
+      let ok = confirm('Are you sure you want to submit?')
+      if(!ok)
+        return;
+
+      if(!this.sampleCreateForm.valid)
+        return;
+
+      this.isSubmit= true; //disables button
+      this.nameBackEndErrors = null;  // resets backendErors
+      this.ageBackEndErrors = null;
+
+      let result = await this.personService.checkLegalAge
+      (this.sampleCreateForm.value).toPromise();
+      if(result.isSuccess){
+        alert(result.message);
+        this.sampleCreateForm.reset();
+      }
+    } catch (error) {
+      console.log(error)
+        let errs = error.error;
+
+        if(!errs.isSuccess){
+          alert(errs.message);
+          return;
+        }
+
+        if(errs.errors){
+          if('Name' in errs.errors){
+            this.nameBackEndErrors = errs.errors.Name;
+          }
+          if('Age' in errs.errors){
+            this.ageBackEndErrors = errs.errors.Name;
+      }      
+    }
+  } finally {
+    this.isSubmit = false;
+  }
+}
 }
