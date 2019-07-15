@@ -1,0 +1,10 @@
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\bin\Debug\netcoreapp2.2\BookSys.DAL.deps.json
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\bin\Debug\netcoreapp2.2\BookSys.DAL.dll
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\bin\Debug\netcoreapp2.2\BookSys.DAL.pdb
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\obj\Debug\netcoreapp2.2\BookSys.DAL.csproj.CoreCompileInputs.cache
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\obj\Debug\netcoreapp2.2\BookSys.DAL.AssemblyInfoInputs.cache
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\obj\Debug\netcoreapp2.2\BookSys.DAL.AssemblyInfo.cs
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\obj\Debug\netcoreapp2.2\BookSys.DAL.dll
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\obj\Debug\netcoreapp2.2\BookSys.DAL.pdb
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\bin\Debug\netcoreapp2.2\BookSys.DAL.runtimeconfig.json
+C:\Users\takes\Desktop\project\BookSystem\BookSys.DAL\bin\Debug\netcoreapp2.2\BookSys.DAL.runtimeconfig.dev.json

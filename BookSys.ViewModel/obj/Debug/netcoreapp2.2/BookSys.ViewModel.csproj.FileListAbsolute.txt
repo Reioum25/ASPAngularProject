@@ -1,0 +1,9 @@
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\bin\Debug\netcoreapp2.2\BookSys.ViewModel.deps.json
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\bin\Debug\netcoreapp2.2\BookSys.ViewModel.dll
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\bin\Debug\netcoreapp2.2\BookSys.ViewModel.pdb
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\obj\Debug\netcoreapp2.2\BookSys.ViewModel.csprojAssemblyReference.cache
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\obj\Debug\netcoreapp2.2\BookSys.ViewModel.csproj.CoreCompileInputs.cache
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\obj\Debug\netcoreapp2.2\BookSys.ViewModel.AssemblyInfoInputs.cache
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\obj\Debug\netcoreapp2.2\BookSys.ViewModel.AssemblyInfo.cs
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\obj\Debug\netcoreapp2.2\BookSys.ViewModel.dll
+C:\Users\takes\Desktop\project\BookSystem\BookSys.ViewModel\obj\Debug\netcoreapp2.2\BookSys.ViewModel.pdb

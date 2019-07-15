@@ -1,0 +1,14 @@
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\bin\Debug\netcoreapp2.2\BookSys.BLL.deps.json
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\bin\Debug\netcoreapp2.2\BookSys.BLL.dll
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\bin\Debug\netcoreapp2.2\BookSys.BLL.pdb
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\bin\Debug\netcoreapp2.2\BookSys.DAL.dll
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\bin\Debug\netcoreapp2.2\BookSys.ViewModel.dll
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\bin\Debug\netcoreapp2.2\BookSys.DAL.pdb
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\bin\Debug\netcoreapp2.2\BookSys.ViewModel.pdb
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\obj\Debug\netcoreapp2.2\BookSys.BLL.csprojAssemblyReference.cache
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\obj\Debug\netcoreapp2.2\BookSys.BLL.csproj.CoreCompileInputs.cache
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\obj\Debug\netcoreapp2.2\BookSys.BLL.AssemblyInfoInputs.cache
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\obj\Debug\netcoreapp2.2\BookSys.BLL.AssemblyInfo.cs
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\obj\Debug\netcoreapp2.2\BookSys.BLL.csproj.CopyComplete
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\obj\Debug\netcoreapp2.2\BookSys.BLL.dll
+C:\Users\takes\Desktop\project\BookSystem\BookSys.BLL\obj\Debug\netcoreapp2.2\BookSys.BLL.pdb
