@@ -27,7 +27,7 @@ namespace BookSys.BLL.Services
                     try
                     {
                         bookVM.MyGuid = Guid.NewGuid();
-                        context.Books.Add(toModel.Book(bookVM));
+                         context.Books.Add(toModel.Book(bookVM));
                         context.SaveChanges();
 
                         //commit change to db
