@@ -3,6 +3,7 @@ import { BookService } from 'src/app/services/book.service';
 import { BookDataService } from 'src/app/dataservices/book.dataService';
 import { Book } from 'src/app/models/book.models';
 import { BookUpdateFormComponent } from './book-update-form/book-update-form.component';
+import { MatDialog, MatDialogConfig } from '@angular/material';
 
 @Component({
   selector: 'app-book',
@@ -15,6 +16,7 @@ export class BookComponent implements OnInit {
   constructor(
     private bookService: BookService,
     private bookDataService: BookDataService,
+    public dialog: MatDialog
     
   ) { }
 

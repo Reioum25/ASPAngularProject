@@ -1,7 +1,0 @@
-<p>book-add-form works!</p>
-<form (ngSubmit)="onFormSubmit()" method="POST" [formGroup] = "bookCreateForm">
-    <input type="text" class="form-control" formControlName="title" placeholder="Title">
-    <br>
-    <input type="number" class="form-control" formControlName="copyright" placeholder="Copyright"> <br>
-    <button type="submit" class="btn btn-success" [disabled] = "!bookCreateForm.valid || isSubmit">Create</button>
-</form>

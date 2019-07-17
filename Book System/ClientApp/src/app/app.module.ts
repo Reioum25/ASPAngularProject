@@ -12,8 +12,10 @@ import { FetchDataComponent } from './views/fetch-data/fetch-data.component';
 import { AppRoutingModule } from './app-routing.module';
 import { MySampleComponent } from './views/my-sample/my-sample.component';
 import { BookComponent } from './views/book/book.component';
-import { BookAddFormComponent } from './views/book-add-form/book-add-form.component';
+import { BookAddFormComponent } from './views/book/book-add-form/book-add-form.component';
 import { BookUpdateFormComponent } from './views/book/book-update-form/book-update-form.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatDialogModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -32,8 +34,11 @@ import { BookUpdateFormComponent } from './views/book/book-update-form/book-upda
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatDialogModule,
   ],
+  entryComponents:[BookUpdateFormComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

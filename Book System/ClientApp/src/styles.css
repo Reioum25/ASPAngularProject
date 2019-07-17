@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/purple-green.css";
+@import "~material-design-icons/iconfont/material-icons.css";
+
+
+.error-msg {
+    color:  red;
+    font-size: 10pt;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
